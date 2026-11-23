@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Inertia",
     "version": "1.0.0",
-    "description": "Smooth scrolling for your mouse wheel and keyboard.",
+    "description": "Smooth scrolling for Chrome and Chromium-based browsers.",
     "minimum_chrome_version": "119",
     "permissions": ["storage"],
     "icons": { "128": "res/icons/128.png" },
