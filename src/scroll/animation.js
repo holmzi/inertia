@@ -2,7 +2,7 @@
 
 const ACCELERATION_WINDOW_MS = 50;
 const MAX_ACCELERATION = 3;
-const PULSE_SCALE = 4;
+const PULSE_SCALE = 8;
 const PULSE_END = pulse_distance(PULSE_SCALE);
 
 function pulse_distance(time) {
