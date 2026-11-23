@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="color-scheme" content="dark">
+    <title>Inertia</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="../settings.js" defer></script>
+    <script src="popup.js" defer></script>
+</head>
+<body>
+    <header>
+        <label class="switch" title="Enable smooth scrolling">
+            <input id="enabled" type="checkbox" role="switch" aria-label="Enabled" disabled>
+        </label>
+    </header>
+    <main>
+        <fieldset id="settings" aria-label="Scroll settings" disabled>
+            <div class="setting">
+                <label for="smoothness">Smoothness</label>
+                <output id="smoothness-value" for="smoothness" aria-live="off"></output>
+                <input id="smoothness" type="range" title="Duration of one scroll step">
+            </div>
+            <div class="setting">
+                <label for="distance">Distance</label>
+                <output id="distance-value" for="distance" aria-live="off"></output>
+                <input id="distance" type="range" title="Distance per wheel notch">
+            </div>
+        </fieldset>
+        <p id="error" role="alert" hidden></p>
+    </main>
+</body>
+</html>
